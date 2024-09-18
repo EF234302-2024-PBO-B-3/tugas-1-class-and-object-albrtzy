@@ -1,6 +1,6 @@
 namespace ClassAndObject.Perpustakaan
 {
-    public class Buku
+    public class itemBuku
     {
         public string Judul { get; set; }
         public string Penulis { get; set; }
