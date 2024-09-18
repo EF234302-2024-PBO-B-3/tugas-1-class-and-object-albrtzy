@@ -1,6 +1,6 @@
 namespace ClassAndObject.Kendaraan
 {
-    public class namaMobil
+    public class Mobil
     {
         public string Merk { get; set; }
         public string Model { get; set; }
