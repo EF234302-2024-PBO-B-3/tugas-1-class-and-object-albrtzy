@@ -2,7 +2,7 @@ using System;
 
 namespace ClassAndObject.TokoLaptop
 {
-    public class Laptop
+    public class itemLaptop
     {
         public string Merk { get; set; }
         public string Prosesor { get; set; }
