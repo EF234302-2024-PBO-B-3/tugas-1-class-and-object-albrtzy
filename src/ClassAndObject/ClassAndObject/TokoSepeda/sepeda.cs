@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace ClassAndObject.TokoSepeda
 {
-    public class Sepeda
+    public class typeSepeda
     {
         public string Merk { get; set; }
         public string Tipe { get; set; }
