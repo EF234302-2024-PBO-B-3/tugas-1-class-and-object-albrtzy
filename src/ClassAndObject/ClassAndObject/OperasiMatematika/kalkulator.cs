@@ -2,7 +2,7 @@ using System;
 
 namespace ClassAndObject.OperasiMatematika
 {
-    public class Kalkulator
+    public class hitungKalkulator
     {
         public double Tambah(double a, double b)
         {
