@@ -1,13 +1,13 @@
-namespace ClassAndObject.Perpustakaan
+namespace ClassAndObject.Perpustakaan 
 {
-    public class Buku
+    public class Buku 
     {
-        public string Judul { get; set; }
-        public string Penulis { get; set; }
-        public int TahunTerbit { get; set; }
+        public string Judul { get; set; } 
+        public string Penulis { get; set; } 
+        public int TahunTerbit { get; set; } 
 
         public Buku(string judul, string penulis, int tahunTerbit)
-        {
+        {   
             Judul = judul;
             Penulis = penulis;
             TahunTerbit = tahunTerbit;
@@ -15,7 +15,7 @@ namespace ClassAndObject.Perpustakaan
 
         public void TampilkanInfo()
         {
-            Console.WriteLine($"Judul: {Judul}, Penulis: {Penulis}, Tahun Terbit: {TahunTerbit}");
+            Console.WriteLine($"Judul: {Judul}, Penulis: {Penulis}, Tahun Terbit: {TahunTerbit}"); 
         }
     }
 }
